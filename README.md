@@ -30,13 +30,13 @@ Uma SPA (Single Page Application) que permite:
 
 ```bash
 # Instalar dependências
-npm install
+yarn install
 
 # Rodar em desenvolvimento
-npm run dev
+yarn dev
 ```
 
-Acesse: `http://localhost:8080`
+Acesse: `http://localhost:5173`
 
 ---
 
@@ -65,7 +65,7 @@ VITE_SUPABASE_URL="https://seu_project_id.supabase.co"
 
 ```bash
 # Instalar CLI
-npm install -g supabase
+yarn add supabase -D
 
 # Login e vincular projeto
 supabase login
@@ -154,7 +154,7 @@ Landing → Configurador → Checkout → Análise de Crédito → Confirmação
 ## Scripts
 
 ```bash
-npm run dev      # Desenvolvimento
-npm run build    # Build de produção
-npm run lint     # Verificar código
+yarn dev      # Desenvolvimento
+yarn build    # Build de produção
+yarn lint     # Verificar código
 ```
