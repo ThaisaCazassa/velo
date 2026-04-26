@@ -13,4 +13,4 @@ export function generateOrderCode() {
     }
   
     return `${prefix}-${suffix}`;
-  }
+  };
